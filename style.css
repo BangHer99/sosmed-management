@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header h1 {
+    height: 70px;
+    background-color: rgb(244, 235, 160);
+    border-style: Solid;
+    border-color: rgb(0, 0, 43);
+}
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #fff;
+}
+h2 {
+    text-shadow: 2px 2px #fff;
+}
+header ul li{
+    padding: 20px;
+    border-left: 2px solid;  
+}
+header ul {
+    float: right;
+    background-color: rgb(53, 49, 17);
+    border-style: dashed;
+    color: #fff;
+   
+}
+header ul li {
+    text-transform: none;
+    display: inline-block;
+}
+header ul li a {
+    text-decoration: none;
+    transition: 1.3s; 
+    color: #fff;
+}
+header ul li a:hover {
+    color: red;
+}
+h2{
+    
+    font-size: xx-large;
+    background-color: rgb(247, 219, 104);
+    border-style: ridge;
+    padding: 11px 50px;
+    text-align: center;
+}
+.content h4 {
+    padding: 2px 10px;
+}
+.content {
+    padding: 10px 10px;
+    text-align: justify;
+}
+.content img{
+    width: 100px;
+    float: right;
+    padding: 15px;
+}
+/*h3 {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}*/
+section h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+section h3::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 120px;
+    height: 1px;
+    background-color: black;
+    left: calc(50% - 60px);
+
+}
+
+section h3::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    width: 40px;
+    height: 4px;
+    background-color: firebrick;
+    left: calc(50% - 20px);
+}
+.benefit p{
+    padding: 10px;
+}
+.benefit h4 {
+    text-align: center;
+}
+.benefit ul li {
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+h4 {
+    padding: 10px;
+    padding-top: 30px;
+}
+p {
+    padding: 10px;
+    text-align: justify;
+    line-height: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#join ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px #fff;
+}
+
+#join ul li {
+    padding: 15px;
+    text-align: center;
+}
+#join button{
+    padding: 20px;
+    background-color: aqua;
+    border: rgb(13, 12, 12) 7px solid;
+   
+}
+#join ul li a:hover{
+    color: blue;
+    transition: 1.5s;
+}
+#other p {
+    text-align: left;
+}
+
+#other img{
+    width: 100px;
+    float: right;
+    padding: 15px;
+}
+#help ul li {
+    text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+}
+.help {
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+footer {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+
+}
